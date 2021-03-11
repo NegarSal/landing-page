@@ -1,3 +1,187 @@
 body{
     font-family: 'lato' , sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
 }
+#container{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #fff;
+    overflow: auto;
+}
+p{
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    line-height: 1.2em;
+}
+h3{
+    font-size: 22px;
+    margin: 10px 0;
+}
+h4{
+    font-size: 19px;
+    margin: 10px 0;
+}
+strong{
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+.content-header{
+    border-bottom: #ddd solid 1px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.content-footer{
+    border-top: #ddd solid 1px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header#main-header{
+    border-bottom: 4px solid rgb(112, 128, 216);
+}
+#logo{
+    margin: auto;
+    display: block;
+}
+#main-text{
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    margin: 20px;
+}
+#sub-1{
+    float: left;
+    width: 40%;
+}
+#sub-2{
+    float: right;
+    width: 40%;
+}
+.points li{
+    margin-bottom: 30px;
+}
+.points img{
+    float: left;
+    margin-right: 7px;
+}
+.points h4{
+    padding-top: 5px;
+}
+#contact-form{
+    padding: 10px 15px 15px 15px;
+    border: 4px solid teal;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: #ddd;
+}
+#contact-form div{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+#contact-form input[type='text'],#contact-form input[type='email']{
+    border: #333 1px solid;
+    border-radius: 5px;
+    height: 25px;
+    width: 65%;
+}
+#contact-form input[type='submit']{
+    padding: 12px 17px;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    float: right;
+    display: block;
+}
+#contact-form input[type='submit']:hover{
+    background-color: #d55427;
+    cursor: pointer;
+}
+#contact-form .content-footer p{
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    font-size: 80%;
+}
+#testimonial{
+    margin: 40px 0;
+    font-style: italic;
+    color: #666;
+}
+#testimonial img{
+    float: left;
+    margin-right: 20px;
+}
+footer #main-footer{
+    text-align: center;
+    border-top: #ccc solid 1px;
+    color: #aaa;
+}
+@media(max-width:960px){
+    #container{
+        width: 80%;
+    }
+    h1{
+        font-size: 33px;
+    }
+    #sub-1, #sub-2{
+        float: none;
+        width: 100%;
+    }
+    .points li{
+        background-color: #eee;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .points img{
+        margin-top: 7px;
+    }
+    #testimonial img{
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:568px){
+    h1{
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
